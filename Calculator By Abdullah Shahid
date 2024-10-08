@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{  
+cout<<"\t\t    \033[1;4;36m CALCULATOR BY ABDULLAH Shahid \033[0m\n\n\n";
+	double num1, num2;
+	cout << "Enter the First Number : ";
+	cin >> num1;
+	cout << "Enter the Second Number : ";
+	cin >> num2;
+
+	int sum = num1 + num2;
+	cout << "The Sum of the Numbers is : " << sum << endl;
+	int sub = num1 - num2;
+	cout << "The Difference of the Numbers is : " << sub << endl;
+	int mul = num1 * num2;
+	cout << "The Product of the Numbers is : " << mul << endl;
+	double div = num1 / num2;
+	cout << "The Division of the Numbers is : " << div << endl;
+	double square1=num1*num1;
+	cout<<"The Square of the First Number is : "<<square1<<endl;
+	double square2=num2*num2;
+	cout<<"The Square of the Second Number is : "<<square2<<endl;
+	
+cout<<"\033[1;37;4;7mCreated by :Abdullah Shahid\033[0m\n\033[1;5;4;36;7m Roll Number: 0113\033[0m"<<endl;
+	
+
+}
